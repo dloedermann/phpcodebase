@@ -12,6 +12,12 @@
     // This is a single-line comment in PHP
     /* This is a multi-line comment
        It can span multiple lines */
-    echo "<h1>Hallo PHP!</h1>"?>
+    echo "<h1>Hallo PHP!</h1>";
+    // require_once('test.php'); // Including another PHP file with require_once
+    $variable1 = require_once("./test.php");
+    
+    echo $variable1;
+    
+    ?>
 </body>
 </html>
